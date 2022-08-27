@@ -1,0 +1,139 @@
+.singlePost {
+    flex: 9;
+}
+
+.singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+}
+
+.singlePostTitleInput {
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+}
+.singlePostTitleInput:focus {
+    outline: none;
+}
+
+.singlePostEdit {
+    float: right;
+    font-size: 16px;
+}
+
+.singlePostEditIcon {
+    margin-right: 10px;
+    cursor: pointer;
+    color: teal;
+    position: relative;
+}
+
+.singlePostEditText {
+    position: absolute;
+    bottom: -25px;
+    right: -15px;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: white;
+    width: max-content;
+}
+
+.singlePostEditIcon .singlePostEditText,
+.singlePostDeleteIcon .singlePostDeleteText {
+    visibility: hidden;
+}
+
+.singlePostEditIcon:hover .singlePostEditText,
+.singlePostDeleteIcon:hover .singlePostDeleteText {
+    visibility: visible;
+}
+
+.singlePostDeleteIcon {
+    margin-right: 10px;
+    cursor: pointer;
+    color: tomato;
+    position: relative;
+}
+
+.singlePostDeleteText {
+    position: absolute;
+    bottom: -25px;
+    right: -25px;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: white;
+    width: max-content;
+}
+
+.singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: "Varela Round", sans-serif;
+}
+
+.singlePostAuthorName {
+    color: rgb(119, 118, 118);
+}
+
+.singlePostAuthorName:hover {
+    color: #b39656;
+}
+
+.singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePostDescInput:focus {
+    outline: none;
+}
+
+.singlePostButton {
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}

@@ -1,0 +1,83 @@
+.contact {
+    font-family: "Varela Round", sans-serif;
+}
+
+.contactWrapper {
+    display: flex;
+    height: calc(100vh - 50px);
+    align-items: center;
+}
+
+.contactLeft {
+    height: 450px;
+    flex: 6;
+    padding-left: 300px;
+}
+
+.contactTitle {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contactText {
+    width: 80%;
+}
+
+.contactEmailContainer {
+    margin-top: 50px;
+}
+
+.contactEmailTitle {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contactEmail {
+    margin-bottom: 20px;
+}
+
+.contactLeft > p {
+    margin-top: 50px;
+    margin-right: 100px;
+    line-height: 25px;
+}
+
+.contactRight {
+    height: 450px;
+    flex: 6;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contactForm > label {
+    margin: 10px 0;
+}
+
+.contactInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.writeText {
+    height: 70px;
+}
+
+.contactButton {
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.contactButton:hover {
+    background-color: rgba(0, 128, 128, 0.8);
+}

@@ -1,0 +1,54 @@
+.about {
+    height: calc(100vh - 50px);
+}
+
+.aboutTitle {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.aboutWrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.aboutLeft {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+
+.aboutLeftTitle {
+    width: 80%;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.aboutLeftDesc,
+.aboutLeftMessage {
+    font-family: "Josefin Sans", sans-serif;
+    width: 80%;
+    line-height: 40px;
+}
+
+.aboutLeftMessage {
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.aboutRight {
+    flex: 1;
+    height: 800px;
+}
+
+.aboutRightImg {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
